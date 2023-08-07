@@ -1,0 +1,6 @@
+.header {
+  display: flex;
+}
+.header div {
+  padding: 5px 10px;
+}
