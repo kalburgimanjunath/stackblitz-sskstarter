@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <div className="m-4">
+    <div className="m-20 divide-y">
       <div>
         <h1 className="text-6xl">Welcome to SSK community app</h1>
         <p className="text-2xl pt-2 pb-2">
@@ -11,6 +11,9 @@ export default function Home() {
             Know more
           </button>
         </div>
+      </div>
+      <div>
+        <h1 className="text-6xl">Recent Posts</h1>
       </div>
     </div>
   );
