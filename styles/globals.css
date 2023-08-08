@@ -1,6 +1,9 @@
-.header {
-  display: flex;
-}
-.header div {
-  padding: 5px 10px;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&family=Cormorant+Garamond&family=Noto+Sans:ital,wght@1,200&family=Playfair+Display&display=swap');
+h2,
+h1,
+body {
+  font-family: 'Garamond', serif;
 }

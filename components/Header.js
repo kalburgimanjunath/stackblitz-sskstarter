@@ -9,13 +9,13 @@ export default function Header() {
     { title: 'Our future plans', link: 'plans' },
   ];
   return (
-    <div className="header">
+    <div className="header flex justify-end bg-pink-500 shadow-md">
       {menus &&
         menus.map((item) => {
           return (
-            <div>
-              <Link href={`${item.link}`}>
-                {item.title.toLocaleUpperCase()}
+            <div className="p-2 text-white hover:bg-pink-300 hover:text-black hover:translate-y-1">
+              <Link href={`${item.link}`} className="p-3">
+                {item.title}
               </Link>
             </div>
           );
