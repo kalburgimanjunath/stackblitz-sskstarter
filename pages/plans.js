@@ -1,3 +1,7 @@
 export default function Plans() {
-  return <div>Plans</div>;
+  return (
+    <div>
+      <h2>Plans</h2>
+    </div>
+  );
 }

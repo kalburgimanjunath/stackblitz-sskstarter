@@ -1,9 +1,12 @@
 import Head from 'next/head';
-import { Header } from './components/';
+
 export default function Home() {
   return (
     <div>
-      <Header />
+      <div>
+        <h1>Welcome to SSK community app</h1>
+        <p>What we are and how to achieve success.</p>
+      </div>
     </div>
   );
 }

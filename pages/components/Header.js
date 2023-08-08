@@ -1,6 +1,7 @@
 import Link from 'next/link';
 export default function Header() {
   const menus = [
+    { title: 'Home', link: '/' },
     { title: 'Chat', link: 'chat' },
     { title: 'News', link: 'news' },
     { title: 'Emergency', link: 'emergency' },
